@@ -1,0 +1,275 @@
+|tentativa1
+CARRY_H <= contador0a23:inst9.CARRY
+CLK => inst.IN0
+SET_S => inst19.IN0
+RESET => inst16.IN0
+SET_M => inst17.IN0
+SET_H => inst18.IN0
+sla <= decoder0a9:inst1.ah
+slb <= decoder0a9:inst1.be
+slc <= decoder0a9:inst1.ce
+sld <= decoder0a9:inst1.de
+sle <= decoder0a9:inst1.e
+slf <= decoder0a9:inst1.f
+slg <= decoder0a9:inst1.g
+sma <= decoder0a9:inst2.ah
+smb <= decoder0a9:inst2.be
+smc <= decoder0a9:inst2.ce
+smd <= decoder0a9:inst2.de
+sme <= decoder0a9:inst2.e
+smf <= decoder0a9:inst2.f
+smg <= decoder0a9:inst2.g
+mla <= decoder0a9:inst3.ah
+mlb <= decoder0a9:inst3.be
+mlc <= decoder0a9:inst3.ce
+mld <= decoder0a9:inst3.de
+mle <= decoder0a9:inst3.e
+mlf <= decoder0a9:inst3.f
+mlg <= decoder0a9:inst3.g
+mma <= decoder0a9:inst4.ah
+mmb <= decoder0a9:inst4.be
+mmc <= decoder0a9:inst4.ce
+mmd <= decoder0a9:inst4.de
+mme <= decoder0a9:inst4.e
+mmf <= decoder0a9:inst4.f
+mmg <= decoder0a9:inst4.g
+hla <= decoder0a9:inst5.ah
+hlb <= decoder0a9:inst5.be
+hlc <= decoder0a9:inst5.ce
+hld <= decoder0a9:inst5.de
+hle <= decoder0a9:inst5.e
+hlf <= decoder0a9:inst5.f
+hlg <= decoder0a9:inst5.g
+hma <= decoder0a9:inst6.ah
+hmb <= decoder0a9:inst6.be
+hmc <= decoder0a9:inst6.ce
+hmd <= decoder0a9:inst6.de
+hme <= decoder0a9:inst6.e
+hmf <= decoder0a9:inst6.f
+hmg <= decoder0a9:inst6.g
+
+
+|tentativa1|contador0a23:inst9
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+RESET => inst19.IN0
+RESET => inst5.IN1
+CLK => inst13.IN0
+SET => inst13.IN1
+E <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+A <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|contador0a59:inst8
+B <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RESET => inst16.IN0
+RESET => inst19.IN0
+CLK => inst13.IN0
+SET => inst13.IN1
+A <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|contador0a59:inst7
+B <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RESET => inst16.IN0
+RESET => inst19.IN0
+CLK => inst13.IN0
+SET => inst13.IN1
+A <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|decoder0a9:inst1
+e <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst13.IN0
+A => inst14.IN0
+A => inst10.IN3
+A => inst19.IN0
+C => inst2.IN0
+C => inst17.IN1
+C => inst16.IN1
+C => inst13.IN1
+C => inst10.IN2
+C => inst19.IN2
+B => inst18.IN1
+B => inst1.IN0
+B => inst15.IN0
+B => inst4.IN1
+B => inst14.IN1
+f <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+D => inst7.IN2
+D => inst9.IN2
+D => inst4.IN2
+D => inst20.IN5
+g <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+ah <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+be <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+ce <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+de <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|decoder0a9:inst2
+e <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst13.IN0
+A => inst14.IN0
+A => inst10.IN3
+A => inst19.IN0
+C => inst2.IN0
+C => inst17.IN1
+C => inst16.IN1
+C => inst13.IN1
+C => inst10.IN2
+C => inst19.IN2
+B => inst18.IN1
+B => inst1.IN0
+B => inst15.IN0
+B => inst4.IN1
+B => inst14.IN1
+f <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+D => inst7.IN2
+D => inst9.IN2
+D => inst4.IN2
+D => inst20.IN5
+g <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+ah <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+be <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+ce <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+de <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|decoder0a9:inst3
+e <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst13.IN0
+A => inst14.IN0
+A => inst10.IN3
+A => inst19.IN0
+C => inst2.IN0
+C => inst17.IN1
+C => inst16.IN1
+C => inst13.IN1
+C => inst10.IN2
+C => inst19.IN2
+B => inst18.IN1
+B => inst1.IN0
+B => inst15.IN0
+B => inst4.IN1
+B => inst14.IN1
+f <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+D => inst7.IN2
+D => inst9.IN2
+D => inst4.IN2
+D => inst20.IN5
+g <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+ah <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+be <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+ce <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+de <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|decoder0a9:inst4
+e <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst13.IN0
+A => inst14.IN0
+A => inst10.IN3
+A => inst19.IN0
+C => inst2.IN0
+C => inst17.IN1
+C => inst16.IN1
+C => inst13.IN1
+C => inst10.IN2
+C => inst19.IN2
+B => inst18.IN1
+B => inst1.IN0
+B => inst15.IN0
+B => inst4.IN1
+B => inst14.IN1
+f <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+D => inst7.IN2
+D => inst9.IN2
+D => inst4.IN2
+D => inst20.IN5
+g <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+ah <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+be <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+ce <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+de <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|decoder0a9:inst5
+e <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst13.IN0
+A => inst14.IN0
+A => inst10.IN3
+A => inst19.IN0
+C => inst2.IN0
+C => inst17.IN1
+C => inst16.IN1
+C => inst13.IN1
+C => inst10.IN2
+C => inst19.IN2
+B => inst18.IN1
+B => inst1.IN0
+B => inst15.IN0
+B => inst4.IN1
+B => inst14.IN1
+f <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+D => inst7.IN2
+D => inst9.IN2
+D => inst4.IN2
+D => inst20.IN5
+g <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+ah <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+be <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+ce <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+de <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tentativa1|decoder0a9:inst6
+e <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst13.IN0
+A => inst14.IN0
+A => inst10.IN3
+A => inst19.IN0
+C => inst2.IN0
+C => inst17.IN1
+C => inst16.IN1
+C => inst13.IN1
+C => inst10.IN2
+C => inst19.IN2
+B => inst18.IN1
+B => inst1.IN0
+B => inst15.IN0
+B => inst4.IN1
+B => inst14.IN1
+f <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+D => inst7.IN2
+D => inst9.IN2
+D => inst4.IN2
+D => inst20.IN5
+g <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+ah <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+be <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+ce <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+de <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,6 @@
+vendor_name = ModelSim
+source_file = 1, D:/Thomas/BackupDesktop/Tudo/IFMG 9º Periodo/LSD/RelogioFPGA/simpleprogram/simpleprogram.bdf
+source_file = 1, D:/Thomas/BackupDesktop/Tudo/IFMG 9º Periodo/LSD/RelogioFPGA/simpleprogram/db/simpleprogram.cbx.xml
+design_name = simpleprogram
+instance = comp, \OUTPOOT~output\, OUTPOOT~output, simpleprogram, 1
+instance = comp, \INPOOT~input\, INPOOT~input, simpleprogram, 1
